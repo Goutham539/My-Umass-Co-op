@@ -1,0 +1,387 @@
+body{
+  font-family: 'Crimson Pro', serif;
+  margin: 0;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.content{
+  position: absolute;
+  width: 340px;
+  height: 620px;
+  background:#034f84;
+  padding: 10px;
+}
+
+.dshbrd{
+  position: relative;
+  width: 340px;
+  height: 620px;
+  background:#034f84;
+  padding: 10px;
+}
+
+.dshbrd-grp{
+  position: relative;
+  width: 340px;
+  height:900px;
+  background:#034f84;
+  padding: 10px;
+}
+
+/*Dashboard and other topbar*/
+.topbar{
+  position: absolute;
+  width:360px;
+  height: 40px;
+  margin-top: -10px;
+  margin-left: -10px;
+  background: #92a8d1;
+}
+
+.topbar nav{
+  height: 30px;
+  padding: 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sidebar{
+  position: absolute;
+  width:135px;
+  height: 640px;
+  margin-top: -10px;
+  margin-left: -20px;
+}
+
+.sidebar *{
+  margin-left: -13px;
+ list-style: none;
+ color: #fff;
+}
+
+.sidebar a.active{
+	background-color: #3564a1;
+	color: white;
+  padding: 10px 30%;
+}
+
+.dshbrd .sidebar{
+  position: fixed;
+  width: 130px;
+  height: 640px;
+  background: #36486b;
+}
+
+.dshbrd-grp .sidebar{
+  position: fixed;
+  width: 130px;
+  height: 640px;
+  background: #36486b;
+}
+
+.dshbrd .sidebar h3{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.dshbrd .sidebar ul li{
+  padding: 15px;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(225,225,225,225.05);
+}
+
+.dshbrd .sidebar ul li a{
+  color: #ffffff;
+}
+
+.dshbrd .sidebar ul li:hover {
+  color: #80ced6;
+}
+
+.dshbrd-grp .sidebar h3{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.dshbrd-grp .sidebar ul li{
+  padding: 15px;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(225,225,225,225.05);
+}
+
+.dshbrd-grp .sidebar ul li a{
+  color: #ffffff;
+}
+
+.dshbrd-grp .sidebar ul li:hover {
+  color: #80ced6;
+}
+
+.bx-menu{
+  padding:0px 5px;
+}
+
+.bx-user{
+  padding:0px 5px;
+}
+
+.dashboard{
+  font-size: 20px;
+}
+
+.dashboard a{
+  color: #ffffff;
+}
+
+.dashboard a:hover{
+  color: #108cc5;
+}
+
+.admin-name{
+  font-size: 20px;
+}
+
+/*Logo size and orientation*/
+.logo1{
+  height: 80px;
+  width: 80px;
+  padding: 10px;
+}
+
+.logo_mini{
+  height:30px;
+  width:30px;
+  padding: 0px 50px ;
+  margin-bottom: -10px;
+}
+
+/* Button syntax*/
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.t1{
+  margin-bottom: 50px;
+}
+
+input[type=text], input[type=text], input[type=text],  input[type=password] {
+  width: 70%;
+  padding: 5px 15px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button{
+  border-color: #04AA6D;
+  color: green;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px 70px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #04AA6D;
+  color: white;
+  border-radius: 10px;
+}
+
+/* Green */
+.signup {
+  border-color: #04AA6D;
+  color: green;
+  border-radius: 10px;
+}
+
+.signup:hover {
+  background-color: #04AA6D;
+  color: white;
+  border-radius: 10px;
+}
+
+.container{
+  position: absolute;
+  width: 300px;
+  border-radius: 10%;
+  padding: 16px;
+}
+
+.middle{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.groups{
+  height: 65px;
+  width: 65px;
+  margin-left: -80px;
+  margin-right: 40px;
+  margin-top: 120px;
+}
+
+.discussion{
+  height: 65px;
+  width: 65px;
+  margin-left: 50px;
+  margin-right: -50px;
+  margin-top: 120px;
+}
+
+.help{
+  height: 65px;
+  width: 65px;
+  margin-left: -100px;
+  margin-right: 40px;
+  margin-top: 70px;
+}
+
+.meetings{
+  height: 65px;
+  width: 65px;
+  margin-left: 40px;
+  margin-right: -75px;
+  margin-top: 70px;
+}
+
+.logout{
+  height: 65px;
+  width: 65px;
+  margin-left: -90px;
+  margin-right: 40px;
+  margin-top: 80px;
+}
+
+.my_profile{
+  height: 65px;
+  width: 65px;
+  margin-left: 40px;
+  margin-right: -70px;
+  margin-top: 80px;
+}
+
+.titleDashboard{
+  margin-left: -10px;
+}
+
+.profile-data{
+  text-align: left;
+  margin-top: 150px;
+  margin-left: 110px;
+}
+
+.profile-data a{
+  color: #ccc;
+}
+
+.prof-img{
+  height:40px;
+  width:50px;
+  margin-top: -80px;
+  margin-left: 155px;
+}
+
+.t1{
+  text-align: right;
+  margin-top: -45px;
+  margin-right: 18px;
+}
+.group-data{
+  padding: 15px;
+  text-align: left;
+  margin-top: 45px;
+  margin-left: 110px;
+}
+
+.group-data a{
+  color: #fff;
+}
+
+.mtg-sc{
+  padding: 15px;
+  text-align: left;
+  margin-top: 150px;
+  margin-left: 110px;
+}
+
+.st-img{
+  height: 500px;
+  width: 360px;
+  margin-left: -10px;
+  margin-top: 30px;
+}
+
+#answer{
+  border-radius: 12px;
+  height: 80px;
+}
+
+.grade-graph{
+  width:100%;
+}
+
+.chat-data{
+  padding: 15px;
+  text-align: left;
+  margin-top: 45px;
+  margin-left: 110px;
+}
+
+#stud1{
+  border-radius: 6px;
+  background-color: #274163 ;
+  color: #fff;
+}
+
+#prof1{
+  border-radius: 6px;
+  margin-left: 120px;
+  background-color: #274163 ;
+  color: #fff;
+}
+
+#prof2{
+  border-radius: 6px;
+  margin-left: 65px;
+  background-color: #274163 ;
+  color: #fff;
+}

@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/styles1.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="dshbrd">
+        
+        <section class="topbar">
+            <nav>    
+                <div class="sidebar-btn">
+                    <i class='bx bx-menu'></i>
+                    <span class="dashboard">Dashboard</span>
+                    <img class="logo_mini" src="umass_logo.png">
+                        <span class="admin-name">Divya</span>
+                        <i class='bx bx-user'></i>
+                </div> 
+            </nav>
+            </section>
+        <div class="sidebar">
+            <h3><a href="group.html"><i class='bx bx-arrow-back' >back</i></a></h3>
+            <ul>
+                <li><a href="groups.html"><i class='bx bx-group' >Groups</i></a></li>
+                <li><a class="active" href="quiz.html"><i class='bx bx-plus'>Quiz</i></a></li>
+                <li><a href="grading.html"><i class='bx bx-vector' >Grading</i></a></li>
+            </ul>
+        </div>
+        <div class="group-data">
+            <h3>CS519_f21 --> Quiz</h3>
+            <form action="/action_page.php">
+                <label for="quiz-title">Enter the title for the quiz:</label><br>
+                <input type="text" id="fname" placeholder="Title" name="fname"><br><br>
+                <label for="question">Question-1:</label>
+                <input type="text" id="question" placeholder="Question" name="question"><br><br>
+                <label for="answer">Answer-1:</label>
+                <textarea id="Answer" name="Answer" placeholder="Enter the answer" rows="4" cols="20"></textarea><br><br>
+                <label for="answer"><i class='bx bxs-plus-circle' >Add a question</i></label><br><br>
+                <button type="button" onclick="alert('Quiz posted to group')">Post</button>
+                <button type="button" onclick="alert('Changes saved')">Save draft</button>
+              </form>
+        </div>
+    </div>
+</body>
