@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/styles1.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="dshbrd">
+        
+        <section class="topbar">
+            <nav>    
+                <div class="sidebar-btn">
+                    <i class='bx bx-menu'></i>
+                    <span class="dashboard">Dashboard</span>
+                    <img class="logo_mini" src="umass_logo.png">
+                    <span class="admin-name"><a href="home.html">Divya</a></span>
+                        <i class='bx bx-user'></i>
+                </div> 
+            </nav>
+            </section>
+        <div class="sidebar">
+            <h3><a href="group.html"><i class='bx bx-arrow-back' >back</i></a></h3>
+            <ul>
+                <li><a href="group.html"><i class='bx bx-group' >Groups</i></a></li>
+                <li><a href="grp-create.html"><i class='bx bx-plus'>Create a group</i></a></li>
+                <li><a class="active1" href="grp-join.html"><i class='bx bx-log-in-circle' >Join a Group</i></a></li>
+                <li><a href="my-grps.html"><i class='bx bxs-group'>My groups</i></a></li>
+            </ul>
+        </div>
+        <div class="group-data">
+            <form action="/action_page.php">
+                <label for="name">Search:</label>
+                <input type="text" id="date" placeholder="CS615"><br><br><br>
+                <h3><i class='bx bx-book'></i><a href="group1.html">CS443_f21</a></h3>
+                <p>This group is for all students that are enrolled in CS443 for fall 2021. </p><br>
+                <h3><i class='bx bx-book'></i><a href="group2.html">project_CS681</a></h3>
+                <p>This is a student group. Any one interested to join can open by clicking the name and select join.</p><br>
+                <button type="button" onclick="alert('Join group ')">Join</button>
+                <button type="button" onclick="alert('Link copied ')">Create link</button>
+            </form>
+        </div>
+    </div>
+</body>

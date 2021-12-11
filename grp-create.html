@@ -24,24 +24,22 @@
         <div class="sidebar">
             <h3><a href="group.html"><i class='bx bx-arrow-back' >back</i></a></h3>
             <ul>
-                <li><a class="active" href="group.html"><i class='bx bx-group' >Groups</i></a></li>
-                <li><a href="quiz.html"><i class='bx bx-plus'>Add a quiz</i></a></li>
-                <li><a href="grading.html"><i class='bx bx-vector' >Grading</i></a></li>
+                <li><a href="group.html"><i class='bx bx-group' >Groups</i></a></li>
+                <li><a class="active1" href="grp-create.html"><i class='bx bx-plus'>Create a group</i></a></li>
+                <li><a href="grp-join.html"><i class='bx bx-log-in-circle' >Join a Group</i></a></li>
+                <li><a href="my-grps.html"><i class='bx bxs-group'>My groups</i></a></li>
             </ul>
         </div>
         <div class="group-data">
-            
-            <h2><i class='bx bx-book'></i>CS519_f21</h2>
-            <p>This group is for all students that are enrolled in CS519 for fall 2021. </p><br>
-            <li><b>Syllabus</b></li>
-            <p>Click the link to find syllabus for this course. </p>
-            <li><b>Classes</b></li>
-            <p>Timing for the classes are as follows:</p>
-            <p> Mon, Wed - 1pm to 2:45pm </p>
-            <li><b>Prerequisites</b></li>
-            <p>Please note that CS221 is prerequisite for this course.</p>
-
-            <button type="button" onclick="alert('Request to join group is received.')">Join group</button>
+            <form action="/action_page.php">
+                <label for="name">Enter the group admin-name:</label>
+                <input type="text" id="date" placeholder="group name"><br><br><br>
+                <label for="grp">Enter the group description:</label>
+                <textarea id="stud1" name="doubt" rows="4" cols="25">This group is for students enrolled in CS615...</textarea><br><br><br>
+                <label for="grp"><i class='bx bxs-plus-circle'>Add people to the group.</i></label><br><br><br>
+                <button type="button" onclick="alert('Group created ')">Create</button>
+                <button type="button" onclick="alert('Link copied ')">Create link</button>
+            </form>
         </div>
     </div>
 </body>

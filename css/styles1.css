@@ -6,6 +6,14 @@ body{
   text-align: center;
 }
 
+.out-icon{
+  width: 60px;
+  height: 40px;
+}
+
+.out-icon:hover{
+  opacity: 0.7;
+}
 
 .fa {
   padding: 20px;
@@ -41,6 +49,11 @@ body{
   padding: 10px;
 }
 
+.dshbrd a{
+  text-decoration: none;
+  color: #fff;
+}
+
 .dshbrd-grp{
   position: relative;
   width: 340px;
@@ -57,6 +70,11 @@ body{
   margin-top: -10px;
   margin-left: -10px;
   background: #92a8d1;
+}
+
+.topbar a{
+  color: #fff;
+  text-decoration: none;;
 }
 
 .topbar nav{
@@ -85,6 +103,12 @@ body{
 	background-color: #3564a1;
 	color: white;
   padding: 10px 30%;
+}
+
+.sidebar a.active1{
+	background-color: #3564a1;
+	color: white;
+  padding: 15px 15%;
 }
 
 .dshbrd .sidebar{
@@ -116,6 +140,7 @@ body{
 
 .dshbrd .sidebar ul li a{
   color: #ffffff;
+  text-decoration: none;
 }
 
 .dshbrd .sidebar ul li:hover {
@@ -191,8 +216,8 @@ body{
   cursor: pointer;
 }
 
-.t1{
-  margin-bottom: 50px;
+.login-msg{
+  margin: 40px;
 }
 
 input[type=text], input[type=text], input[type=text],  input[type=password] {
@@ -209,7 +234,7 @@ button{
   color: green;
   border-radius: 10px;
   margin: 10px;
-  padding: 10px 70px;
+  padding: 16px 42px;
   font-size: 16px;
   cursor: pointer;
 }
@@ -300,7 +325,7 @@ button:hover{
 }
 
 .titleDashboard{
-  margin-left: -10px;
+  margin-left: -15px;
 }
 
 .profile-data{
@@ -334,6 +359,7 @@ button:hover{
 
 .group-data a{
   color: #fff;
+  text-decoration: none;
 }
 
 .mtg-sc{
