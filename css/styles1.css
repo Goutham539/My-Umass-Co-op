@@ -398,6 +398,16 @@ button:hover{
   color: #fff;
 }
 
+#stud11{
+  border-radius: 6px;
+  color: #fff;
+}
+
+#prof11{
+  border-radius: 6px;
+  margin-left: 120px;
+}
+
 #prof1{
   border-radius: 6px;
   margin-left: 120px;

@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/styles1.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="dshbrd-grp">
+        
+        <section class="topbar">
+            <nav>    
+                <div class="sidebar-btn">
+                    <i class='bx bx-menu'></i>
+                    <span class="dashboard">Dashboard-student</span>
+                    <img class="logo_mini" src="umass_logo.png">
+                        <span class="admin-name"><a href="home.html">Kevin</a></span>
+                        <i class='bx bx-user'></i>
+                </div> 
+            </nav>
+            </section>
+        <div class="sidebar">
+            <h3><a href="dashboard.html"><i class='bx bx-arrow-back' >back</i></a></h3>
+            <ul>
+                <li><a href="dashboard-student.html"><i class='bx bxs-dashboard'>Dashboard</i></a></li>
+                <li><a href="group-student.html"><i class='bx bx-group' >Groups</i></a></li>
+                <li><a href="help-student.html"><i class='bx bx-help-circle' >Help</i></a></li>
+                <li><a href="meetings-student.html"><i class='bx bx-video' >Meetings</i></a></li>
+                <li><a class="active" href="chat-student.html"><i class='bx bxs-message-square-dots'>Chat</i></a></li>
+                <li><a href="profile-student.html"><i class='bx bx-user' >Profile</i></a></li>
+                <li><a href="home.html"><i class='bx bx-log-out-circle' >Logout</i></a></li>
+            </ul>
+        </div>
+        <div class="chat-data">
+            <form action="chat.html">
+                <p id=prof11>Kevin</p>
+                <textarea id="prof1" name="greet" rows="2" cols="10">Hi Professor</textarea>
+                <p id=stud11>divya</p>
+                <textarea id="stud1" name="greet" rows="2" cols="10">Hi Kevin</textarea>
+                <p id=prof11>Kevin</p>
+                <textarea id="prof1" name="doubt" rows="4" cols="10">I have a doubt regarding chapter12. </textarea>
+                <p id=stud11>divya</p>
+                <textarea id="stud1" name="Answer" rows="2" cols="10">What is your doubt?</textarea>
+                <p id=prof11>Kevin</p>
+                <textarea id="prof2" name="doubt" rows="4" cols="15">How can i add exception handler with appropriate handlers?</textarea>
+                <p id=stud11>divya</p>
+                <textarea id="stud1" name="answer" rows="4" cols="18">You can check documentation addExceptionHandler() method</textarea>
+                <p id=prof11>Kevin</p>
+                <textarea id="prof1" name="doubt" rows="4" cols="10">That was helpful. Thanks for specifics.</textarea><br><br>
+                <textarea id="stud11" name="doubt" placeholder="Enter your message to send" rows="2" cols="25"></textarea>
+                <input type="submit" value="send" onclick="alert('Message will be sent')">
+            </form>
+        </div>
+    </div>
+</body>
