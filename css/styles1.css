@@ -421,3 +421,7 @@ button:hover{
   background-color: #274163 ;
   color: #fff;
 }
+
+.titleDashboardGroups{
+  margin-left: -40px;
+}
