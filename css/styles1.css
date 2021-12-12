@@ -308,6 +308,18 @@ button:hover{
   margin-top: 70px;
 }
 
+#date{
+  width: 140px;
+}
+
+#time{
+  width: 140px;
+}
+
+#meet-title{
+  width: 140px;
+}
+
 .logout{
   height: 65px;
   width: 65px;
@@ -382,6 +394,10 @@ button:hover{
 }
 
 .grade-graph{
+  width:100%;
+}
+
+.grade-student{
   width:100%;
 }
 
