@@ -9,6 +9,8 @@ body{
 .out-icon{
   width: 60px;
   height: 40px;
+  margin-bottom: -15px;
+  margin-left: -10px;
 }
 
 .out-icon:hover{
