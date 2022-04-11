@@ -2,6 +2,8 @@
 
 [Click here to visit the website](https://goutham539.github.io/My-Umass-Co-op/)
 
+Best viewed in Chrome.
+
 If you like to visit it on mobile use link - https://goutham539.github.io/My-Umass-Co-op/home.html
 
 Username and Password to login are as follows:
